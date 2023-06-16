@@ -42,6 +42,7 @@ def main(repo_path):
     dump(trained_model, repo_path / "model/model.joblib")
 
 
+
 if __name__ == "__main__":
     repo_path = Path(__file__).parent.parent
     main(repo_path)
